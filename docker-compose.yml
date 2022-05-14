@@ -7,5 +7,5 @@ services:
     image: peterdavehello/tor-socks-proxy:latest
     ports:
 #      - "127.0.0.1:8853:53/udp"
-      - "4001:9150/tcp"
+      - "9150:9150"
     restart: unless-stopped
